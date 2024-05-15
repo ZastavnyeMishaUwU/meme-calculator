@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Calculator</h1>
+<p>This is a calculator. Please enter two numbers below and click "Calculate".</p>
+
+<div class="loading-spinner"></div>
+
+<input type="text" id="firstNumber" style="font-size: 24px;" placeholder="Enter first number">
+<span style="font-size: 24px;"> + </span>
+<input type="text" id="secondNumber" style="font-size: 24px;" placeholder="Enter second number">
+<button onclick="calculate()" style="font-size: 24px;">Calculate</button>
+
+<canvas class="slow-image" width="640" height="360"></canvas>
+
+<script src="js/script.js"></script>
+</body>
+</html>
